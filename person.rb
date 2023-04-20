@@ -5,7 +5,6 @@ require './trimmer_decorator'
 
 class Person < Nameable
   attr_accessor :name, :age
-  attr_reader :id
   attr_reader :id, :rentals
 
   def initialize(age, name = 'Unknown', parent_permission: true)
