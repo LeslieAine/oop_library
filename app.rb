@@ -68,7 +68,7 @@ class App
       parent_permission = gets.chomp.downcase == 'y'
       print 'What is the student\'s classroom? '
       classroom = gets.chomp
-      @people.push(Student.new(age, name, classroom, parent_permission:parent_permission))
+      @people.push(Student.new(age, name, classroom, parent_permission: parent_permission))
     when '2'
       print 'Specialization: '
       specialization = gets.chomp
