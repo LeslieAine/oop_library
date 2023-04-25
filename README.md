@@ -80,6 +80,13 @@ Clone this repository to your desired folder:
 - GitHub: [@LeslieAine](https://github.com/LeslieAine)
 - LinkedIn: [LeslieAine](https://linkedin.com/in/LeslieAine)
 
+## 👥 Authors <a name="authors"></a>
+
+👤 **Divine Asiriuwa**
+
+- GitHub: [@Divinity-dev](https://github.com/Divinity-dev)
+- LinkedIn: [Divine Asiriuwa](https://www.linkedin.com/in/divinity20/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
