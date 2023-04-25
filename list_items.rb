@@ -1,5 +1,5 @@
 class List
-    def list(_arr)
-      raise 'Not implemented'
-    end
+  def list(_arr)
+    raise 'Not implemented'
   end
+end
