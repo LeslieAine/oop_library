@@ -1,4 +1,5 @@
 require_relative 'create'
+require_relative './data/loader'
 
 class CreatePerson < Create
   def input_person_info(people)
@@ -19,10 +20,29 @@ class CreatePerson < Create
       print 'What is the student\'s classroom? '
       classroom = gets.chomp
       people.push(Student.new(age, name, classroom, parent_permission: parent_permission))
-    when '2'
+      
+      if File.exist?('./data/people.json')
+        file = File.read('./data/people.json')
+        save = JSON.parse(file)
+      end
+      
+      save << { id: student.id, name: student.name, age: student.age }
+    File.write('./data/people.json', JSON.generate(save))
+
+  when '2'
       print 'Specialization: '
       specialization = gets.chomp
       people.push(Teacher.new(age, name, specialization))
+      save = []
+
+    if File.exist?('./data/people.json')
+      file = File.read('./data/people.json')
+      save = JSON.parse(file)
+    end
+
+    save << { id: teacher.id, name: teacher.name, age: teacher.age, specialization: teacher.specialization }
+
+    File.write('./data/people.json', JSON.generate(save))
     else
       puts 'Invalid option'
       input_person_info
