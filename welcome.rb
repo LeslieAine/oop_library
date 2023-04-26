@@ -1,6 +1,6 @@
 class Welcome
   def welcome
-    puts 'Welcome to School Library App!\n'
+    puts "Welcome to School Library App!\n"
   end
 
   def menu
