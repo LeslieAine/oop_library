@@ -1,0 +1,14 @@
+[
+    {
+        "name": "John",
+        "age": 48,
+        "id": 765,
+        "description": "Student",
+        "rentals": [
+            
+        ],
+        "classroom": "class 1",
+        "specialization": null
+    }
+
+]
