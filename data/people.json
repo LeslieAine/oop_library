@@ -1,14 +1,28 @@
 [
-    {
-        "name": "John",
-        "age": 48,
-        "id": 765,
-        "description": "Student",
-        "rentals": [
-            
-        ],
-        "classroom": "class 1",
-        "specialization": null
-    }
+  {
+    "name": "John",
+    "age": 48,
+    "id": 765,
+    "description": "Student",
+    "rentals": [
 
+    ],
+    "classroom": "class 1",
+    "specialization": null
+  },
+  {
+    "name": "leslie",
+    "age": "23",
+    "id": 11,
+    "description": "Student",
+    "rentals": [
+      {
+        "date": "26/04/2023",
+        "book": "if tomorrow comes",
+        "person": 11
+      }
+    ],
+    "classroom": "software eng",
+    "specialization": null
+  }
 ]
