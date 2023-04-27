@@ -4,7 +4,7 @@ require './rental'
 require './person'
 describe Person do
   before(:each) do
-        @person= Person.new(20, 'John')
+    @person = Person.new(20, 'John')
   end
   context 'when creating a new book' do
     it 'should create a new person' do
