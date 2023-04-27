@@ -7,8 +7,7 @@ describe Teacher do
   end
 
   it 'should create a new teacher' do
-    teacher = Teacher.new(20, 'Michael', nil, 'Software Engineering')
-    expect(teacher.class.name).to eq('Teacher')
+    expect(@teacher.class.name).to eq('Teacher')
   end
 
   it 'teacher can use services' do
