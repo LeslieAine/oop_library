@@ -17,12 +17,12 @@ describe Book do
   end
 
   it 'should add a book to the rentals' do
-    book = Book.new("Title", "Author")
-    person = Person.new(24, "Bob")
-    rental = Rental.new("2023-04-27", book, person)
-    
+    book = Book.new('Title', 'Author')
+    person = Person.new(24, 'Bob')
+    rental = Rental.new('2023-04-27', book, person)
+
     book.add_rental(rental)
-    
+
     expect(book.rentals).to include(rental)
   end
 end

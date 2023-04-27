@@ -45,13 +45,12 @@ describe Person do
   end
 
   it 'should add a person to the rentals' do
-    book = Book.new("Title", "Author")
-    person = Person.new(24, "Bob")
-    rental = Rental.new("2023-04-27", book, person)
-    
+    book = Book.new('Title', 'Author')
+    person = Person.new(24, 'Bob')
+    rental = Rental.new('2023-04-27', book, person)
+
     person.add_rental(rental)
-    
+
     expect(person.rentals).to include(rental)
   end
-
 end
